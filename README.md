@@ -12,3 +12,6 @@ The Colorado Basin Team established the following communication protocol:
   - GitHub for sharing and reviewing scripts
 - Project review prior to submitting final work for grading
 - 
+
+## ETL Process
+### Extract
