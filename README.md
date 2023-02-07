@@ -15,7 +15,7 @@ The Colorado Basin Team established the following communication protocol:
 
 ## ETL Process
 ### Extract Process
-Searched the internet for southwest drought data, Colorado Rocky Mountain snow pack data and Lake Mead and Powell water storage data.  For each dataset the data was queried in the respective site and csv formatted files were extracted.  The csv datasets are as follows:
+Searched the internet for west/southwest drought data, Colorado Rocky Mountain snow pack data and Lake Mead and Powell water storage data.  For each dataset the data was queried in the respective site and csv formatted files were extracted.  The csv datasets are as follows:
 - Drought for the US western region as percent area
 - Colorado river headwaters: Rocky Mountain snow pack as snow water equivalent (SWE) in inches
 - Lake Mead water storage in square feet
