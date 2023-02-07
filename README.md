@@ -24,7 +24,7 @@ Searched the internet for southwest drought data, Colorado Rocky Mountain snow p
 ### Transform Process
 - Drought dataset for the US western region
 
-- Colorado river headwaters: Rocky Mountain snow pack dataset 
+- Colorado River headwaters: Rocky Mountain snow pack dataset 
 
 - Lake Mead water storage dataset
 
