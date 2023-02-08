@@ -24,13 +24,13 @@ Searched the internet for Western region drought data, Colorado Rocky Mountain s
 ### Transform Process
 - Drought dataset for the Western region
 
-- Colorado River headwaters: Rocky Mountain snow pack dataset 
+- Colorado River headwaters: Rocky Mountain snow water equivalent (SWE) dataset 
 
 The data content needed for the database build and ML component is 'year', 'month', and 'AvgSWE' as singular columns.
 
 ![SWE_dataset_horizontalYear](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_horizontalYear.png)
 
-The raw csv extract had multiple columns not needed which were removed with the `remove_columns` function.  The csv extract was formatted with 'year' horizontally across the first row and date (mo/day) vertically down column A.  The first transform step was converting the first row with year into a column corresponding with the dataset.  This was achieved by using `set_index` and `reset_index` functions.
+The raw csv extract had multiple columns not needed which were removed with the `remove_columns` function.  Second, the csv extract was formatted with 'year' horizontally across the first row and date (mo/day) vertically down column A.  The transform step to convert the first row with year into a column corresponding with the dataset was achieved by using `set_index` and `reset_index` functions as follows:
 ![SWE_dataset_horizontalYear_reformat](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_horizontalYear_reformat.png)
 
 Next, the year and date were merged into a single column labeled "DATE" by the following `datetime` code:
