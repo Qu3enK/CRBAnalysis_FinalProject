@@ -43,6 +43,8 @@ Next, to split the year and month into separate columns the `DatetimeIndex` was 
 
 ![SWE_year&month](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_year&month.png)
 
+The final transform steps were using the `groupby` function to aggregate by-year, by-month and the `mean` function on the "Value" column to calculate the average by month.  The "Value" column was renamed as "AvgSWE".
+
 ![SWE_groupby&mean2](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_groupby&mean2.png)
 
 ![SWE_dataset_removeColumns5](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_removeColumns5.png)
