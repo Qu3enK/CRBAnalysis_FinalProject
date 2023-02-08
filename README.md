@@ -31,6 +31,8 @@ Searched the internet for Western region drought data, Colorado Rocky Mountain s
 The csv extract was formatted with 'year' horizontally across the first row and date (mo/day) vertically down column A.  The first transform step was converting the year row into a column corresponding with the dataset.  This was achieved by using `set_index` and `reset_index` functions.
 ![SWE_dataset_horizontalYear_reformat](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_horizontalYear_reformat.png)
 
+Next, the year and date were merged into a single value by the following code:
+
 ![SWE_stringDate](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_stringDate.png)
 
 ![SWE_DATEcolumn](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_DATEcolumn.png)
