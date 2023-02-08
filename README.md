@@ -37,6 +37,8 @@ Next, the year and date were merged into a single column labeled "DATE" by the f
 
 ![SWE_DATEcolumn](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_DATEcolumn.png)
 
+Next, to split the year and month into separate columns the `Datetime_index was used as follows:
+
 ![SWE_DatetimeIndex](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_DatetimeIndex.png)
 
 ![SWE_year&month](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_year&month.png)
