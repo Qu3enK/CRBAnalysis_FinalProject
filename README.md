@@ -31,7 +31,7 @@ Searched the internet for Western region drought data, Colorado Rocky Mountain s
 The data content needed for the database build and ML component is 'year', 'month', and 'AvgSWE' as singular columns.  The csv extract was formatted with 'year' horizontally across the first row and date (mo/day) vertically down column A.  The first transform step was converting the first row with year into a column corresponding with the dataset.  This was achieved by using `set_index` and `reset_index` functions.
 ![SWE_dataset_horizontalYear_reformat](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_horizontalYear_reformat.png)
 
-Next, the year and date were merged into a single column labeled "DATE" by the following code:
+Next, the year and date were merged into a single column labeled "DATE" by the following `datetime` code:
 
 ![SWE_stringDate](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_stringDate.png)
 
