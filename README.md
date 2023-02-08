@@ -27,7 +27,6 @@ Searched the internet for Western region drought data, Colorado Rocky Mountain s
 - Colorado River headwaters: Rocky Mountain snow pack dataset 
 
 ![SWE_dataset_horizontalYear](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_horizontalYear.png)
-
 The csv extract was formatted with 'year' horizontally across the first row and date (mo/day) vertically down column A.  The first transform step was converting the year row into a column corresponding with the dataset.
 ![SWE_dataset_horizontalYear_reformat](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_horizontalYear_reformat.png)
 
