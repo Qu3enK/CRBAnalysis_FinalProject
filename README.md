@@ -53,7 +53,36 @@ The final transform steps were using the `groupby` function to aggregate by-year
 
 - Lake Mead water storage dataset
 
+The Lake Mead raw dataset 
+
+![LM_dataset_1a](https://user-images.githubusercontent.com/112449480/217949533-eda1bcd4-644e-4b47-878f-ed522a84788a.png)
+
+Converted the format of the 'datetime' column to a `date` type, then split out the month and year.  
+
+![LM_dateconversion_1b](https://user-images.githubusercontent.com/112449480/217950344-9a3a47db-8fe5-4093-a5bc-23b080f4935f.png)
+
+The final transformation was obtaining the `mean` of the lake level by year and month.  
+
+![LM_finalformat_1c](https://user-images.githubusercontent.com/112449480/217951521-fdba7446-70f1-4d03-8e4e-9db653ac6b45.png)
+
+
 - Lake Powell water storage dataset
+
+The Lake Powell raw dataset
+
+![LP_dataset_1a](https://user-images.githubusercontent.com/112449480/217954734-04740c09-71d3-43c2-88e7-4c9aace78f15.png)
+
+
+Converted the format of the 'datetime' column to a `date` type, then split out the month and year.  
+
+![LP_dateconversion_1b](https://user-images.githubusercontent.com/112449480/217954760-2f410e61-5713-483b-b5de-7cd30946f338.png)
+
+
+The final transformation was obtaining the `mean` of the lake level by year and month.  
+
+![LP_finalformat_1c](https://user-images.githubusercontent.com/112449480/217954797-668c1904-2046-4f2f-9485-7bccf14e5b16.png)
+
+
 
 ### Load Process
 
