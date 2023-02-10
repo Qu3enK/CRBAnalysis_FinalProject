@@ -5,12 +5,14 @@
 CREATE TABLE "Lake_Mead" (
     "Year" varchar   NOT NULL,
     "Month" varchar   NOT NULL,
+    "Month_Name" varchar   NOT NULL,
     "Storage_Avg" numeric   NOT NULL
 );
 
 CREATE TABLE "Lake_Powell" (
     "Year" varchar   NOT NULL,
     "Month" varchar   NOT NULL,
+    "Month_Name" varchar   NOT NULL,
     "Storage_Avg" numeric   NOT NULL
 );
 
