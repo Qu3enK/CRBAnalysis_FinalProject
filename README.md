@@ -82,6 +82,40 @@ The final transformation was obtaining the `mean` of the lake level by year and 
 
 ![LP_finalformat_1c](https://user-images.githubusercontent.com/112449480/217954797-668c1904-2046-4f2f-9485-7bccf14e5b16.png)
 
+## Drought Dataset
+For the drought dataset, the following steps were performed to transform and clean the data:
+
+1)	We imported the csv and looked at the data types to determine if any columns needed to be converted
+![Import steps](https://user-images.githubusercontent.com/112994018/217967455-5d746a1b-cb69-492a-acc6-68ec7bd9cf62.png)
+
+2)	We then determined if any null values were present to avoid skewing the dataset. The .isna revealed there were 0 null values present
+
+3)	Next the MapDate column was converted to a date format using the “Datetime” tool. In order to get the correct format, we applied ”format =” %Y%m%d" to the table
+![Datetime](https://user-images.githubusercontent.com/112994018/217967525-7f3c72df-e05f-4a35-ad24-28d2eddd0c83.png)
+
+4)	We then separated month and year into two new columns and sorted values based on year and month
+![Seperate month](https://user-images.githubusercontent.com/112994018/217967545-11f40138-b5e9-41f8-8037-67b65335c693.png)
+
+5)	Next the month name was extracted using the str.slice() function
+![Slice](https://user-images.githubusercontent.com/112994018/217967578-0237d6e3-5ce2-4f1b-a645-89f9390d0a5d.png)
+
+6)	A filter was then applied to the table to only pull information from the “West” region since that represents the intended study area for the model
+![Filter](https://user-images.githubusercontent.com/112994018/217967594-38ca5a3d-24e6-41cb-b973-ad67b4a8f831.png)
+
+7)	Next we dropped the 'MapDate','ValidStart','ValidEnd','StatisticFormatID' columns since the data weren’t needed for the future analysis
+![drop columns](https://user-images.githubusercontent.com/112994018/217967605-a2c6f368-9f42-4f2a-b726-7b70ef3c906f.png)
+
+8)	Averages for the year and month were then calculated to get monthly drought averages across the years (2000-2023)
+![Averages](https://user-images.githubusercontent.com/112994018/217967624-d2f14b7b-c0f8-47f0-a286-452df6625d9c.png)
+
+9)	Since the analysis is intended to predict severe drought conditions, columns D2-D4 were then summed together. These columns indicate severe to exceptional drought categories
+![sum d2-d4](https://user-images.githubusercontent.com/112994018/217967649-c7713ab6-9c42-4ff0-90fc-c0c21b85e5b6.png)
+
+10)	Finally, values were exported to a csv for further analysis and inclusion in the model
+![export](https://user-images.githubusercontent.com/112994018/217967664-59108d9a-ea3e-4bcc-ab15-90a2ce612f5f.png)
+
+
+
 
 
 ### Load Process
