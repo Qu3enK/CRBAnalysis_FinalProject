@@ -115,7 +115,7 @@ For the drought dataset, the following steps were performed to transform and cle
 ![export](https://user-images.githubusercontent.com/112994018/217967664-59108d9a-ea3e-4bcc-ab15-90a2ce612f5f.png)
 
 
-![image](https://user-images.githubusercontent.com/112994018/217966174-71a673e8-43c5-4e0d-831e-62ae79b7c1d3.png)
+
 
 
 ### Load Process
