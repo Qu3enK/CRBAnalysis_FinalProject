@@ -133,7 +133,7 @@ We used python, pandas and sklearn for the machine learning component.  For the 
 ![confusion_matrix](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/confusion_matrix.png)
 
 ### Classification report:
--
+-  The precision for the prediction of non-severe-drought and severe-or-worse-drought are somewhat in line with other.  However, the recall (sensitivity) for predicting severe-or-worse-drought is much lower than it is for predicting non-severe-drought.  The lower recall for severe-or-worse-drought is reflected in the lower F1 score.
 ![classification_report](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/classification_report.png)
 
 ## Summary
