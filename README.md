@@ -21,6 +21,8 @@ The team searched the internet for the Colorado River Basin drought data, Colora
 - Lake Powell water storage in squre feet  
 
 ### Transform Process
+We used python and pandas for the transform process.
+
 ### Colorado River headwaters: Rocky Mountain snow water equivalent (SWE) dataset 
 
 The data content needed for the database build and ML component is 'year', 'month', and 'AvgSWE' as singular columns.  The raw csv extract format was as follows:
@@ -110,8 +112,10 @@ For the drought dataset, the following steps were performed to transform and cle
 ![export](https://user-images.githubusercontent.com/112994018/217967664-59108d9a-ea3e-4bcc-ab15-90a2ce612f5f.png)
 
 ### Load Process
+We used python and pandas for the load process.  The four reformatted datasets (individual csv files) were merged on the "year" and "month" attributes into a single "CRB_merged.csv" file.  For the machine learning component the "CRB_merged.csv" file is read into the code using pandas.
 
 ## Machine Learning Component
+We used python, pandas and sklearn for the machine learning component.
 
 ## Results
 
