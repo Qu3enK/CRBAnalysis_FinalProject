@@ -108,14 +108,16 @@ For the drought dataset, the following steps were performed to transform and cle
 9)	Since the analysis is intended to predict severe drought conditions, columns D2-D4 were then summed together. These columns indicate severe to exceptional drought categories
 ![sum d2-d4](https://user-images.githubusercontent.com/112994018/217967649-c7713ab6-9c42-4ff0-90fc-c0c21b85e5b6.png)
 
-10)	Finally, values were exported to a csv for further analysis and inclusion in the model
+10)
+
+11)	Finally, values were exported to a csv for further analysis and inclusion in the model
 ![export](https://user-images.githubusercontent.com/112994018/217967664-59108d9a-ea3e-4bcc-ab15-90a2ce612f5f.png)
 
 ### Load Process
 We used python and pandas for the load process.  The four reformatted datasets (individual csv files) were merged on the "year" and "month" attributes into a single "CRB_merged.csv" file.  For the machine learning component the "CRB_merged.csv" file is read into the code using pandas.
 
 ## Machine Learning Component
-We used python, pandas and sklearn for the machine learning component.
+We used python, pandas and sklearn for the machine learning component.  For the machine learning component we used logitical regression to classify whether or not the Colorado River Basin was in a severe-to-worse-drought or not based on percent land area in the combined drought categories of D2 (severe), D3 (extreme) and D4 (exceptional).  The X factors are Lake Meade water storage, Lake Powell water storage and Rocky Mountain snow water equivalent while the y target is the combined drought variable.
 
 ## Results
 
