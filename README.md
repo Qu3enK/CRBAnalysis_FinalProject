@@ -119,8 +119,10 @@ The results are as follows:
 - Training and testing scores:
 ![train_test_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/train_test_score.png)
 
+
 - Confusion matrix:
 ![confusion_matrix](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/confusion_matrix.png)
+
 
 - Classification report:
 ![classification_report](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/classification_report.png)
