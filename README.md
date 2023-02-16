@@ -129,7 +129,7 @@ We used python, pandas and sklearn for the machine learning component.  For the 
 ![accuracy_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/accuracy_score.png)
 
 ### Confusion matrix:
-- The model is highly accurate when predicting false (less than severe drought) when the outcome is actually false (33 vs. 6), but much less accurate when predicting true (severe drought or worse) when the outcome is actually true (13 vs. 11).
+- The model is highly accurate when predicting false (less than severe drought) when the outcome is actually false (33 vs. 6), but much less accurate when predicting true (severe drought or worse) when the outcome is actually true (11 vs. 13).
 ![confusion_matrix](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/confusion_matrix.png)
 
 ### Classification report:
