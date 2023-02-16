@@ -111,6 +111,8 @@ For the drought dataset, the following steps were performed to transform and cle
 
 ### Load Process
 
+## Machine Learning Component
+
 ## Results
 
 ## Summary
