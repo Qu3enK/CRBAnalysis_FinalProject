@@ -116,12 +116,12 @@ We used python, pandas and sklearn for the machine learning component.  For the 
 
 ## Results
 ### Training and testing scores:
--The training and testing score values are extremely close which is a positive sign that the train and test data split is appropriate.
+- The training and testing score values are extremely close which is a positive sign that the train and test data split is appropriate.
 ![train_test_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/train_test_score.png)
 
 
 ### Predictions for y-value:
--When the first 20 rows of the predicted y-values are compared with the actual values 12 predictions are correct while 8 predictions are incorrect.  This outcome alone of a subset of the data is not a strong indicator that the model has the necessary features to produce greater accuracy.
+- When the first 20 rows of the predicted y-values are compared with the actual values 12 predictions are correct while 8 predictions are incorrect.  This outcome alone of a subset of the data is not a strong indicator that the model has the necessary features to produce greater accuracy.
 ![y_pred](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/y_pred.png)
 
 ### Accuracy score:
@@ -129,7 +129,7 @@ We used python, pandas and sklearn for the machine learning component.  For the 
 ![accuracy_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/accuracy_score.png)
 
 ### Confusion matrix:
--
+- The model is highly accurate when predicting false (less than severe drought) when the outcome is actually false (33 vs. 6), but much less accurate when predicting true (severe drought or worse) when the outcome is actually true (13 vs. 11).
 ![confusion_matrix](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/confusion_matrix.png)
 
 ### Classification report:
