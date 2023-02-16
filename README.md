@@ -4,7 +4,7 @@
 The Colorado River Basin provides water to several states in the Western part of the United States and in recent years the region has face severe droughts, which has led to supply and demand challenges. As part of this effort, information was collected as it pertains to associated lake water levels, snowpacks and precipitation.  The data will be organized, conformed and analyzed to determine future potential drought severity for the Western Region.
 
 ## Communication Protocols
-The Colorado Basin Team established the following communication protocol:
+The Colorado River Basin Team established the following communication protocol:
 - Communication method(s): Slack, Huddle, Zoom
 - Frequecy: Daily
 - Information Communicated: 
@@ -15,8 +15,8 @@ The Colorado Basin Team established the following communication protocol:
 
 ## ETL Process
 ### Extract Process
-The team searched the internet for the Colorado river basin drought data, Colorado Rocky Mountain snow pack data and Lake Mead and Powell water storage data.  For each dataset the data was queried in the respective site and csv formatted files were extracted.  The csv datasets are as follows:
-- Drought for the Colorado river basin as percent area
+The team searched the internet for the Colorado River Basin drought data, Colorado Rocky Mountain snow pack data and Lake Mead and Powell water storage data.  For each dataset the data was queried in the respective site and csv formatted files were extracted.  The csv datasets are as follows:
+- Drought for the Colorado River Basin as percent area
 - Colorado river headwaters: Rocky Mountain snow pack as snow water equivalent (SWE) in inches
 - Lake Mead water storage in square feet
 - Lake Powell water storage in squre feet  
