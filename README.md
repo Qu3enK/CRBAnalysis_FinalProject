@@ -105,12 +105,10 @@ For the drought dataset, the following steps were performed to transform and cle
 8)	Averages for the year and month were then calculated to get monthly drought averages across the years (2000-2023)
 ![Averages](https://user-images.githubusercontent.com/112994018/217967624-d2f14b7b-c0f8-47f0-a286-452df6625d9c.png)
 
-9)	Since the analysis is intended to predict severe drought conditions, columns D2-D4 were then summed together. These columns indicate severe to exceptional drought categories
+9)	Since the analysis is intended to predict severe drought conditions, columns D2-D4 were then summed together. These columns indicate severe to exceptional drought categories.  In addition, since logistical regression will be used in the machine learning component the "D_Combined" column needed to be converted to a seperate column with "0"/"1" values to be used for the y target.
 ![sum d2-d4](https://user-images.githubusercontent.com/112994018/217967649-c7713ab6-9c42-4ff0-90fc-c0c21b85e5b6.png)
 
-10)
-
-11)	Finally, values were exported to a csv for further analysis and inclusion in the model
+10)	Finally, values were exported to a csv for further analysis and inclusion in the model
 ![export](https://user-images.githubusercontent.com/112994018/217967664-59108d9a-ea3e-4bcc-ab15-90a2ce612f5f.png)
 
 ### Load Process
