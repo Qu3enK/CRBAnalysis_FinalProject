@@ -11,7 +11,6 @@ The Colorado River Basin Team established the following communication protocol:
   - CRB data (lake levels, snowpacks, etc)
   - GitHub for sharing and reviewing scripts
 - Project review prior to submitting final work for grading
-- 
 
 ## ETL Process
 ### Extract Process
