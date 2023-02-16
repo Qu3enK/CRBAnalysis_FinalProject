@@ -106,7 +106,7 @@ For the drought dataset, the following steps were performed to transform and cle
 ![Averages](https://user-images.githubusercontent.com/112994018/217967624-d2f14b7b-c0f8-47f0-a286-452df6625d9c.png)
 
 9)	Since the analysis is intended to predict severe drought conditions, columns D2-D4 were then summed together. These columns indicate severe to exceptional drought categories.  In addition, since logistical regression will be used in the machine learning component the "D_Combined" column needed to be converted to a seperate column with "0"/"1" values to be used for the y target.
-![SWE_dataset_removeColumns5](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_removeColumns5.png)
+![Final_merge_dataset](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/Final_merge_dataset.png)
 
 ### Load Process
 We used python and pandas for the load process.  The four reformatted datasets (individual csv files) were merged on the "year" and "month" attributes into a single "CRB_merged.csv" file.  For the machine learning component the "CRB_merged.csv" file is read into the code using pandas.
