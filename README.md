@@ -141,7 +141,8 @@ We used python, pandas and sklearn for the machine learning component.  For the 
 The Colorado River Basin is a complex region with high population growth in many of the metro areas as well as expansive agriculture areas that both depend on and use the river water.  There are most likely other features that when added to the dataset could enhance and improve the machine learning component to better predict severe-to-worse-drought for this region.  In particular, it would be ideal to find features that could improve the recall (sensitivity) value for predicting severe-to-worse-drought because even when predicted true with an actual false outcome it would trigger the region to conserve water usage as a reaction to the prediction.  Having a solid drought prediction model would better prepare the region for water conservation action during periods of drought or non-drought.
 
 ## Reference Section
-- Drought for the Western region as percent area; https://droughtmonitor.unl.edu/DmData/DataDownload/ComprehensiveStatistics.aspx
-- Colorado river headwaters: Rocky Mountain snow pack as snow water equivalent (SWE) in inches; https://www.nrcs.usda.gov/Internet/WCIS/AWS_PLOTS/basinCharts/POR/WTEQ/assocHUCco_8/colorado_headwaters.html
-- Lake Mead water storage in square feet; https://www.usbr.gov/uc/water/hydrodata/
-- Lake Powell water storage in squre feet; https://www.usbr.gov/uc/water/hydrodata/
+- Header pictures from left to right: https://www.watereducationcolorado.org/fresh-water-news/as-2020-kicks-in-historic-colorado-river-drought-plan-gets-first-tests/ Credit: EcoFlight; https://www.azcentral.com/story/news/local/arizona-environment/2022/03/21/climate-change-dries-colorado-river-force-new-rules-users/9453476002/ John Locher/Associated Press; https://grist.org/drought/indigenous-fight-water-colorado-river-drought-cuts/ Justin Sullivan/Getty Images.
+- Drought data for the Colorado River Basin as percent area; https://droughtmonitor.unl.edu/DmData/DataDownload/ComprehensiveStatistics.aspx
+- Colorado River headwaters data: Rocky Mountain snow pack as snow water equivalent (SWE) in inches; https://www.nrcs.usda.gov/Internet/WCIS/AWS_PLOTS/basinCharts/POR/WTEQ/assocHUCco_8/colorado_headwaters.html
+- Lake Mead water storage data in square feet; https://www.usbr.gov/uc/water/hydrodata/
+- Lake Powell water storage data in squre feet; https://www.usbr.gov/uc/water/hydrodata/
