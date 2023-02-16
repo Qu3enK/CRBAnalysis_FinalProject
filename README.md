@@ -116,26 +116,25 @@ We used python, pandas and sklearn for the machine learning component.  For the 
 
 ## Results
 ### Training and testing scores:
-![train_test_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/train_test_score.png)
 -The training and testing score values are extremely close which is a positive sign that the train and test data split is appropriate.
+![train_test_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/train_test_score.png)
+
 
 ### Predictions for y-value:
-![y_pred](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/y_pred.png)
 -When the first 20 rows of the predicted y-values are compared with the actual values 12 predictions are correct while 8 predictions are incorrect.  This outcome alone of a subset of the data is not a strong indicator that the model has the necessary features to produce greater accuracy.
+![y_pred](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/y_pred.png)
 
 ### Accuracy score:
-![accuracy_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/accuracy_score.png)
 - 70% accuracy is a somewhat strong indicator that the model has the ability to predict the outcome of severe drought or worse, but it also indicates that there could be other features that could improve the model or there could be outliers in the dataset distorting that results.
+![accuracy_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/accuracy_score.png)
 
 ### Confusion matrix:
-
+-
 ![confusion_matrix](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/confusion_matrix.png)
-- 
 
 ### Classification report:
-
+-
 ![classification_report](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/classification_report.png)
-- 
 
 ## Summary
 Complex region; population, agriculture, energy usage, recreation
