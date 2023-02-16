@@ -27,38 +27,38 @@ The data content needed for the database build and ML component is 'year', 'mont
 
 ![SWE_dataset_horizontalYear](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_horizontalYear.png)
 
-The raw csv extract had multiple columns not needed which were removed with the `remove_columns` function.  Second, the csv extract was formatted with 'year' horizontally across the first row and date (mo/day) vertically down column A.  The transform step to convert the first row with year into a column corresponding with the dataset was achieved by using `set_index` and `reset_index` functions as follows:
+1) The raw csv extract had multiple columns not needed which were removed with the `remove_columns` function.  Second, the csv extract was formatted with 'year' horizontally across the first row and date (mo/day) vertically down column A.  The transform step to convert the first row with year into a column corresponding with the dataset was achieved by using `set_index` and `reset_index` functions as follows:
 ![SWE_dataset_horizontalYear_reformat](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_horizontalYear_reformat.png)
 
-Next, the year and date were merged into a single column labeled "DATE" by the following `datetime` code:
+2) The year and date were merged into a single column labeled "DATE" by the following `datetime` code:
 
 ![SWE_stringDate](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_stringDate.png)
 
 ![SWE_DATEcolumn](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_DATEcolumn.png)
 
-Next, to split the year and month into separate columns the `DatetimeIndex` was used as follows:
+3) To split the year and month into separate columns the `DatetimeIndex` was used as follows:
 
 ![SWE_DatetimeIndex](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_DatetimeIndex.png)
 
 ![SWE_year&month](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_year&month.png)
 
-The final transform steps were using the `groupby` function to aggregate by-year, by-month and the `mean` function on the "Value" column to calculate the average by month.  The "Value" column was renamed as "AvgSWE".
+4) The final transform steps were using the `groupby` function to aggregate by-year, by-month and the `mean` function on the "Value" column to calculate the average by month.  The "Value" column was renamed as "AvgSWE".
 
 ![SWE_groupby&mean2](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_groupby&mean2.png)
 
 ![SWE_dataset_removeColumns5](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/SWE_dataset_removeColumns5.png)
 
-- Lake Mead water storage dataset
+### Lake Mead water storage dataset
 
 The Lake Mead raw dataset 
 
 ![LM_dataset_1a](https://user-images.githubusercontent.com/112449480/217949533-eda1bcd4-644e-4b47-878f-ed522a84788a.png)
 
-Converted the format of the 'datetime' column to a `date` type, then split out the month and year.  
+1) Converted the format of the 'datetime' column to a `date` type, then split out the month and year.  
 
 ![LM_dateconversion_1b](https://user-images.githubusercontent.com/112449480/217950344-9a3a47db-8fe5-4093-a5bc-23b080f4935f.png)
 
-The final transformation was obtaining the `mean` of the lake level by year and month.  
+2) The final transformation was obtaining the `mean` of the lake level by year and month.  
 
 ![LM_finalformat_1c](https://user-images.githubusercontent.com/112449480/217951521-fdba7446-70f1-4d03-8e4e-9db653ac6b45.png)
 
@@ -69,13 +69,11 @@ The Lake Powell raw dataset
 
 ![LP_dataset_1a](https://user-images.githubusercontent.com/112449480/217954734-04740c09-71d3-43c2-88e7-4c9aace78f15.png)
 
-
-Converted the format of the 'datetime' column to a `date` type, then split out the month and year.  
+1) Converted the format of the 'datetime' column to a `date` type, then split out the month and year.  
 
 ![LP_dateconversion_1b](https://user-images.githubusercontent.com/112449480/217954760-2f410e61-5713-483b-b5de-7cd30946f338.png)
 
-
-The final transformation was obtaining the `mean` of the lake level by year and month.  
+2) The final transformation was obtaining the `mean` of the lake level by year and month.  
 
 ![LP_finalformat_1c](https://user-images.githubusercontent.com/112449480/217954797-668c1904-2046-4f2f-9485-7bccf14e5b16.png)
 
