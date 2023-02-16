@@ -115,6 +115,8 @@ We used python and pandas for the load process.  The four reformatted datasets (
 We used python, pandas and sklearn for the machine learning component.  For the machine learning component we used logitical regression to classify whether or not the Colorado River Basin was in a severe-to-worse-drought or not based on percent land area in the combined drought categories.  The X factors are Lake Mead water storage (Mead_Storage), Lake Powell water storage (Powell_Storage) and Rocky Mountain snow water equivalent (AvgSWE) while the y target is the combined drought variable (D_Outcome).
 
 ## Results
+After training and testing the data set and using the logistic regression classifer the results are as follows:
+
 
 ## Summary
 
