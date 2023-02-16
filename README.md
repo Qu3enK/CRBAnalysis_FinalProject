@@ -19,7 +19,7 @@ The team searched the internet for the Colorado River Basin drought data, Colora
 - Drought for the Colorado River Basin as percent area
 - Colorado River headwaters: Rocky Mountain snow pack as snow water equivalent (SWE) in inches
 - Lake Mead water storage in square feet
-- Lake Powell water storage in squre feet  
+- Lake Powell water storage in square feet  
 
 ### Transform Process
 We used python and pandas for the transform process.
