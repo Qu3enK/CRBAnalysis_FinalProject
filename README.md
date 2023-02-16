@@ -116,7 +116,11 @@ We used python, pandas and sklearn for the machine learning component.  For the 
 
 ## Results
 After training and testing the data set and using the logistic regression classifer the results are as follows:
+![train_test_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/train_test_score.png)
 
+![confusion_matrix](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/confusion_matrix.png)
+
+![classification_report](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/classification_report.png)
 
 ## Summary
 
