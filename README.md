@@ -109,11 +109,11 @@ For the drought dataset, the following steps were performed to transform and cle
 10)	Finally, values were exported to a csv for further analysis and inclusion in the model
 ![export](https://user-images.githubusercontent.com/112994018/217967664-59108d9a-ea3e-4bcc-ab15-90a2ce612f5f.png)
 
-
-
-
-
 ### Load Process
+
+## Results
+
+## Summary
 
 ## Reference Section
 - Drought for the Western region as percent area; https://droughtmonitor.unl.edu/DmData/DataDownload/ComprehensiveStatistics.aspx
