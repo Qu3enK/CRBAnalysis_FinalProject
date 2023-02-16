@@ -119,6 +119,10 @@ We used python, pandas and sklearn for the machine learning component.  For the 
 ![train_test_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/train_test_score.png)
 - 
 
+### Predictions for y-value:
+![y_pred](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/y_pred.png)
+-
+
 ### Confusion matrix:
 
 ![confusion_matrix](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/confusion_matrix.png)
