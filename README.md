@@ -1,5 +1,5 @@
 # Colorado River Basin Analysis (CRB) - Final Project
-![readme_main_pic2](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/readme_main_pic2.jpg), ![readme_main_pic](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/readme_main_pic.jpg), ![readme_main_pic3](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/readme_main_pic3.jpg)
+![readme_main_pic2](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/readme_main_pic2.jpg)
 
 ## Overview of Project
 The Colorado River Basin provides water to several states in the Western part of the United States and in recent years the region has face severe droughts, which has led to supply and demand challenges. As part of this effort, information was collected as it pertains to associated lake water levels, snowpacks and precipitation.  The data will be organized, conformed and analyzed to determine future potential drought severity for the Western Region.
