@@ -112,7 +112,7 @@ For the drought dataset, the following steps were performed to transform and cle
 We used python and pandas for the load process.  The four reformatted datasets (individual csv files) were merged on the "year" and "month" attributes into a single "CRB_merged.csv" file and written to the directory.  For the machine learning component the "CRB_merged.csv" file is read into the code using pandas.
 
 ## Machine Learning Component
-We used python, pandas and sklearn for the machine learning component.  For the machine learning component we used logitical regression to classify whether or not the Colorado River Basin was in a severe-to-worse-drought or not based on percent land area in the combined drought categories.  The X factors are Lake Mead water storage (Mead_Storage), Lake Powell water storage (Powell_Storage) and Rocky Mountain snow water equivalent (AvgSWE) while the y target is the combined drought variable (D_Outcome).  After training and testing the data set we used the logistic regression classifer.
+We used python, pandas and sklearn for the machine learning component.  For the machine learning component we used logitical regression to classify whether or not the Colorado River Basin was in a severe-to-worse-drought or not based on percent land area in the combined drought categories.  The X features are Lake Mead water storage (Mead_Storage), Lake Powell water storage (Powell_Storage) and Rocky Mountain snow water equivalent (AvgSWE) while the y target is the combined drought variable (D_Outcome).  After training and testing the data set we used the logistic regression classifer.
 
 ## Results
 ### Training and testing scores:
