@@ -21,7 +21,7 @@ The team searched the internet for the Colorado River Basin drought data, Colora
 - Lake Powell water storage in squre feet  
 
 ### Transform Process
-- Colorado River headwaters: Rocky Mountain snow water equivalent (SWE) dataset 
+### Colorado River headwaters: Rocky Mountain snow water equivalent (SWE) dataset 
 
 The data content needed for the database build and ML component is 'year', 'month', and 'AvgSWE' as singular columns.  The raw csv extract format was as follows:
 
@@ -63,7 +63,7 @@ The final transformation was obtaining the `mean` of the lake level by year and 
 ![LM_finalformat_1c](https://user-images.githubusercontent.com/112449480/217951521-fdba7446-70f1-4d03-8e4e-9db653ac6b45.png)
 
 
-- Lake Powell water storage dataset
+### Lake Powell water storage dataset
 
 The Lake Powell raw dataset
 
@@ -79,7 +79,7 @@ The final transformation was obtaining the `mean` of the lake level by year and 
 
 ![LP_finalformat_1c](https://user-images.githubusercontent.com/112449480/217954797-668c1904-2046-4f2f-9485-7bccf14e5b16.png)
 
-## Drought Dataset
+### Drought Dataset
 For the drought dataset, the following steps were performed to transform and clean the data:
 
 1)	We imported the csv and looked at the data types to determine if any columns needed to be converted
