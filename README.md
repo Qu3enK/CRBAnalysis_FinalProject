@@ -17,7 +17,7 @@ The Colorado River Basin Team established the following communication protocol:
 ### Extract Process
 The team searched the internet for the Colorado River Basin drought data, Colorado Rocky Mountain snow pack data and Lake Mead and Powell water storage data.  For each dataset the data was queried in the respective site and csv formatted files were extracted.  The csv datasets are as follows:
 - Drought for the Colorado River Basin as percent area
-- Colorado river headwaters: Rocky Mountain snow pack as snow water equivalent (SWE) in inches
+- Colorado River headwaters: Rocky Mountain snow pack as snow water equivalent (SWE) in inches
 - Lake Mead water storage in square feet
 - Lake Powell water storage in squre feet  
 
