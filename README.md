@@ -117,11 +117,10 @@ We used python, pandas and sklearn for the machine learning component.  For the 
 ## Results
 ### Training and testing scores:
 ![train_test_score](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/train_test_score.png)
-- 
 
 ### Predictions for y-value:
 ![y_pred](https://raw.githubusercontent.com/Qu3enK/CRBAnalysis_FinalProject/master/Images_for_readme/y_pred.png)
--
+-When the first 20 rows of the predicted y-values are compared with the actual values 12 predictions are correct while 8 predictions are incorrect.
 
 ### Confusion matrix:
 
@@ -134,6 +133,7 @@ We used python, pandas and sklearn for the machine learning component.  For the 
 - 
 
 ## Summary
+Complex region; population, agriculture, energy usage, recreation
 
 ## Reference Section
 - Drought for the Western region as percent area; https://droughtmonitor.unl.edu/DmData/DataDownload/ComprehensiveStatistics.aspx
