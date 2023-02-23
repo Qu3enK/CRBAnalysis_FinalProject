@@ -146,3 +146,4 @@ The Colorado River Basin is a complex region with high population growth in many
 - Colorado River headwaters data: Rocky Mountain snow pack as snow water equivalent (SWE) in inches; https://www.nrcs.usda.gov/Internet/WCIS/AWS_PLOTS/basinCharts/POR/WTEQ/assocHUCco_8/colorado_headwaters.html
 - Lake Mead water storage data in square feet; https://www.usbr.gov/uc/water/hydrodata/
 - Lake Powell water storage data in squre feet; https://www.usbr.gov/uc/water/hydrodata/
+- CRB Analysis Tableau Dashboard; https://public.tableau.com/app/profile/bruce.jones7168/viz/Final_16765941384530/Story1?publish=yes
